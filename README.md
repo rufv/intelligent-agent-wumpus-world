@@ -22,6 +22,7 @@ The agent is designed to collect gold and escape while avoiding pits and the dea
 - `solution.py`: **My core implementation** of the Agent's decision-making logic.
 - `wumpus.py`: The environment simulator (grid physics, sensors, and rewards).
 - `interact.py`: Simulation runner to evaluate agent performance over 1000 episodes.
+  
 **Note:** The `icons/` directory is not included in this repository to respect the original creators' licensing. 
 The core logic in `solution.py` can be evaluated using the `interact.py` script which runs simulations in the console.
 
@@ -37,4 +38,5 @@ python interact.py
 
 ## Credits
 Environment & Framework: Provided by the University of Vienna (Foundations of Intelligent Systems course).
+
 Agent Logic: Fully implemented by me.
